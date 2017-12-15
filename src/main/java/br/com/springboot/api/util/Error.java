@@ -1,5 +1,10 @@
 package br.com.springboot.api.util;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Error {
 
     private String msgUser;
@@ -10,19 +15,4 @@ public class Error {
         this.msgDev = msgDev;
     }
 
-    public String getMsgUser() {
-        return msgUser;
-    }
-
-    public void setMsgUser(String msgUser) {
-        this.msgUser = msgUser;
-    }
-
-    public String getMsgDev() {
-        return msgDev;
-    }
-
-    public void setMsgDev(String msgDev) {
-        this.msgDev = msgDev;
-    }
 }
